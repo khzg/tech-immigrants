@@ -1,0 +1,103 @@
+@font-face {
+  font-family: iranian-sans;
+  src: url(./iranian-sans.ttf);
+}
+
+body {
+  background-color: #e9eefd;
+  font-family: iranian-sans;
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #ffffff;
+  margin: 30px;
+  border-radius: 13px;
+}
+
+.icon i {
+  font-size: 23px;
+  margin-left: 8px;
+}
+
+.navbar-light .navbar-brand,
+.icon i,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #213264;
+}
+
+.box {
+  background-color: #c9d0e6;
+  border-right: 19px solid #57648a;
+}
+
+.mp {
+  margin-right: 45px;
+}
+
+.card {
+  border-radius: 13px;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #e9eefd;
+}
+
+.card-img-top {
+  border-radius: 13px 13px 0px 0px;
+}
+
+.message i {
+  font-size: 23px;
+}
+
+.event {
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 13px;
+  width: 60px;
+}
+
+.blueTime {
+  background-color: #eceff8;
+}
+
+.redTime {
+  background-color: #f8ecf8;
+}
+
+.time {
+  display: inline-block;
+  border-radius: 10px;
+  margin: 8px;
+  text-align: center;
+  padding: 5px;
+}
+
+.row {
+  padding: 25px;
+  padding-bottom: 50px;
+}
+
+.accordion-button::after {
+  margin-left: 0 !important;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .icon {
+    margin-right: 35px !important;
+  }
+  .event {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .event {
+    width: 100% !important;
+  }
+}
+
