@@ -99,5 +99,8 @@ a:link {
   .event {
     width: 100% !important;
   }
+  .navbar-brand{
+    all: unset;
+  }
 }
 
