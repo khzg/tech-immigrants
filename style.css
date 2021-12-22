@@ -101,6 +101,7 @@ a:link {
   }
   .navbar-brand{
     all: unset;
+    color: #213264;
   }
 }
 
